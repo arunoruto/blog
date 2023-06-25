@@ -2,7 +2,6 @@
 title: Mirza's blog
 description: Foo
 author: Mirza
-email: mirza.arnaut@tu-dortmund.de
 baseurl: /
 url: https://blog.arnaut.me
 
@@ -25,4 +24,4 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 # Misc settings
-formspree: f/mqkvzeyk
+google_analytics: G-F9SLL7PHFP
