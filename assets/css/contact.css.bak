@@ -1,6 +1,6 @@
 /* Form */
 form {
-    width: 450px;
+    width: 50%;
     background:#131313;
     border-radius: 17px;
     padding: 20px;

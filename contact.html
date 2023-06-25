@@ -7,15 +7,18 @@ form: true
 ---
 
 <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form action="https://formspree.io/f/mqkvzeyk" method="POST">
-    <label>Your email:</label>
-    <input class="inputfield" type="email" name="email" placeholder="example@gmail.com">
-    <label>Your message:</label>
-    <input class="inputfield" type="text" name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></textarea>
-    <!-- your other form fields go here -->
+<!-- <form action="https://formspree.io/f/mqkvzeyk" method="POST">
+    <div class="floating-label-form-group" controls>
+        <label>Your email:</label>
+        <input class="inputfield" type="email" name="email" placeholder="example@gmail.com">
+    </div>
+    <div class="floating-label-form-group" controls></div>
+        <label>Message:</label>
+        <textarea class="inputfield" type="text" name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></textarea>
+    </div>
     <button class="button" type="submit">Send</button>
-</form>
-<!-- <form name="sentMessage" id="contactForm" novalidate>
+</form> -->
+<form name="sentMessage" action="https://formspree.io/f/mqkvzeyk" method="POST"novalidate>
     <div class="control-group">
         <div class="form-group floating-label-form-group controls">
         <label>Email Address</label>
@@ -35,4 +38,4 @@ form: true
     <div class="form-group">
         <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
     </div>
-</form> -->
+</form>
