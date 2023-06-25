@@ -1,4 +1,5 @@
-theme: minima
 title: Mirza's blog
 author: Mirza
 description: Foo
+
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
