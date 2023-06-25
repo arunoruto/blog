@@ -1,0 +1,18 @@
+# docker run --rm \
+#   --volume="$PWD:/srv/jekyll:Z" \
+#   -it jekyll/jekyll:$JEKYLL_VERSION \
+#   jekyll build
+
+version: '3.7'
+services:
+  jekyll:
+    image: jekyll/jekyll:3.8
+    container_name: jekyll
+    environment:
+      BUNDLE_PATH: "/srv/jekyll/.bundles_cache"
+    volumes:
+      - $PWD:/srv/jekyll
+    ports:
+      - 4000:4000
+    #command: jekyll serve --watch --drafts --force_polling
+    command: bash -c "gem install bundler && bundle install && bundle exec jekyll serve --host 0.0.0.0 --verbose --config _config.yml,_config_dev.yml"
