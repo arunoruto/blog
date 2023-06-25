@@ -1,8 +1,8 @@
 # Site settings
 title: Mirza's blog
-description: Foo
+description: From maths to climbing
 author: Mirza
-baseurl: /
+baseurl: ""
 url: https://blog.arnaut.me
 
 # Social Profiles
