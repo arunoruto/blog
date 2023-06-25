@@ -15,3 +15,10 @@ orcid: 0000-0002-1631-7083
 
 # Build settings
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+markdown: kramdown
+paginate: 5
+paginate_path: /posts/page:num/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
