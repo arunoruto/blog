@@ -1,7 +1,8 @@
 # Site settings
 title: Mirza's blog
-author: Mirza
 description: Foo
+author: Mirza
+email: mirza.arnaut@tu-dortmund.de
 baseurl: /
 url: https://blog.arnaut.me
 
