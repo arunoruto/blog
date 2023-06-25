@@ -24,4 +24,3 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 # Misc settings
-google_analytics: G-F9SLL7PHFP
